@@ -1,0 +1,20 @@
+# Virtual environment
+rag/
+venv/
+
+# Environment variables
+.env
+backend/.env
+
+# Data & database
+data/uploads/
+data/chroma_db/
+backend/data/
+*.pdf
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# macOS system files
+.DS_Store
